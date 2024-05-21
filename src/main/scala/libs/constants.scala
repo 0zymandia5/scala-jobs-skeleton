@@ -1,0 +1,5 @@
+package libs
+
+object constants {
+
+}

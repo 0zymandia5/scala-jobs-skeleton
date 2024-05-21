@@ -1,0 +1,45 @@
+# sbt
+bin/
+project/
+target/
+build/
+project/project/
+project/target/
+project/*-shim.sbt
+*.parquet
+.bsp
+# eclipse
+build
+.classpath
+.project
+.settings
+.worksheet
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache
+.cache-main
+.metals
+.vscode
+.bloop
+src/main/resources/
+.scalafmt.conf
+
+#general
+*.class
+src/main/resources/AssessableUnit.csv
+src/main/RawData/.~lock*
+*.json
+*.xlsx
+*.env
